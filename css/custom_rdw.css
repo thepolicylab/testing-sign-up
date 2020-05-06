@@ -1,0 +1,242 @@
+/* Start: Hide Blocks Temp */
+.hideBlocks {
+    display: none!important;
+}
+
+/* Stop */
+.centrBx {
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+}
+
+/* Start: Custom Business Guidelines Section */
+.bulletList li::before {
+    content: "•";
+    color: #eb5152!important;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.bulletList ul {
+    list-style: none;
+}
+
+.bulletList {
+    color: #fff;
+    padding-top: 25px;
+}
+
+.blueBar {
+    background-color: #283455;
+}
+
+.busGuideTitle {
+    /* font-size: 38px!important; */
+    color: #fff;
+}
+
+/* .blueBarColumn{
+    bottom: -0px!important;
+} */
+.busGuideDisc {
+    font-size: 20px!important;
+    padding-top: 16px;
+}
+
+/* Stop */
+@media only screen and (min-width: 1281px) {
+    .topBlocks {
+        padding-bottom: 50px;
+    }
+
+    /* .guideDesc{
+        margin-top: -40px;
+    } */
+}
+
+@media only screen and (min-width: 1024px) {
+    .btnRight {
+        padding-right: 1px;
+        padding-left: 1px;
+    }
+
+    .accessBTNs {
+        padding-top: 10px;
+    }
+
+    .cntrImage {
+        margin-left: -15px;
+    }
+	
+	.bulletSet {
+        padding-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .topBlocks {
+        padding-bottom: 50px;
+    }
+
+    .guideDesc {
+        margin-top: -40px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .busGuideBTN {
+        margin-top: -50px;
+    }
+
+    .bulletList {
+        color: #fff;
+        padding-top: 0px;
+    }
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: franklin-gothic-urw-comp,Arial,Helvetica,sans-serif;
+    font-size: 42px;
+}
+
+/* Start: Dropdown */
+.centerDropdown {
+    margin: auto;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1123px) {
+    .centerDropdown {
+        margin: auto;
+        width: 100%;
+
+        /* width: 100%; */
+        padding-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .centerDropdown {
+        margin: auto;
+        width: 100%;
+
+        /* width: 100%; */
+    }
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    min-width: 100%;
+    font-family: franklin-gothic-urw-comp,Arial,Helvetica,sans-serif;
+}
+
+.dd-button {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 1px;
+    padding: 10px 30px 10px 20px;
+    background-color: #283455;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 100%;
+    color: #fff;
+    vertical-align: middle!important;
+    font-size: 1.5em;
+}
+
+.dd-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+}
+
+.dd-button:hover {
+    background-color: #8a8a8a;
+}
+
+.dd-input {
+    display: none;
+}
+
+.dd-menu {
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+    width: 100%;
+    color: #283455;
+    z-index: 9999!important;
+}
+
+.dd-input + .dd-menu {
+    display: none;
+}
+
+.dd-input:checked + .dd-menu {
+    display: block;
+}
+
+.dd-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+
+    /* white-space: nowrap; */
+    word-wrap: break-word;
+    font-size: 1.3em;
+}
+
+.dd-menu li:hover {
+    background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.dd-menu li.divider {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+
+    /* border-bottom: 1px solid #eb5152; */
+}
+
+/* Stop */
+/* Start: Force Footer to remain at the bottom on Chrome */
+footer {
+    position: relative!important;
+    bottom: 0;
+    width: 100%!important;
+}
+
+/* Stop */
+.yellow {
+    font-size: 27px!important;
+}
+
+.imageTXT {
+    position: relative;
+    font-family: Arial;
+}
